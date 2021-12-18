@@ -9,10 +9,13 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@docsearch/react": "^1.0.0-alpha.28"
+    "@docsearch/react": "^1.0.0-alpha.28",
+    "rehype-katex": "^6.0.2",
+    "remark-math": "^5.1.1",
+    "remark-supersub": "^1.0.0"
   },
   "devDependencies": {
-    "astro": "^0.21.13",
-    "@astrojs/renderer-preact": "^0.3.2"
+    "@astrojs/renderer-preact": "^0.3.2",
+    "astro": "^0.21.13"
   }
 }
